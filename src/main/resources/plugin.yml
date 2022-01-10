@@ -1,0 +1,20 @@
+name: ItemRarityGlow
+version: @version@
+main: me.gadse.itemrarityglow.ItemRarityGlow
+api-version: 1.16
+authors: [ Gadse ]
+description: Adds a glow depending on rarity to ItemStacks.
+
+commands:
+  itemrarityglow:
+    permission: "itemrarityglow.command"
+    usage: "/<command> [reload|togglepickup]"
+    aliases: [ "irg" ]
+
+permissions:
+  itemrarityglow.command:
+    default: op
+  itemrarityglow.reload:
+    default: op
+  itemrarityglow.togglepickup:
+    default: true

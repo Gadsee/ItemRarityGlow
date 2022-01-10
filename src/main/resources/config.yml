@@ -1,0 +1,23 @@
+# Any messages the plugin might send to players.
+messages:
+  # The prefix shown in front of messages.
+  prefix: "&f&lItemRarityGlow &8&l» &7"
+  # Shown AFTER the configuration has been reloaded.
+  reload: "The configuration has been reloaded."
+  # Shown upon switching the filter priority.
+  pickup_filter: "Pickup priority switched to &r%filter-name% &7or higher."
+
+# Here you can specify item filters that are needed to apply glow.
+filters:
+  example_1:
+    # The name of the filter. Used in the pickup filter message.
+    name: "&9&lRARE"
+    # This needs to be in the display name of the ItemStack. Optional.
+    displayName: "&9"
+    # This needs to be in the lore of the ItemStack. Optional.
+    lore: "&9&lRARE"
+    # This is the glow color of the ItemStack that matches all of the filters.
+    color: BLUE
+  example_2:
+    lore: "&a&lUNCOMMON"
+    color: GREEN
